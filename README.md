@@ -16,10 +16,14 @@ Operators: `+ - * /` (maybe others at a later stage)
 
 Grammar of the input: 
 
+- `""`
 - `"<number>"`
 - `"<number> <operator> <number>"`
 
 ## Inputs and outputs (acceptance criteria)
+
+- Input `""`
+- Output `["", 0]`
 
 - Input `"1"`
 - Output `["1", 1]`
