@@ -14,9 +14,15 @@ e.g. `1 + 1` is an example expression. You will **always have the spaces.**
 
 Operators: `+ - * /` (maybe others at a later stage)
 
-Grammar of the input: `"<number> <operator> <number>"`
+Grammar of the input: 
+
+- `"<number>"`
+- `"<number> <operator> <number>"`
 
 ## Inputs and outputs (acceptance criteria)
+
+- Input `"1"`
+- Output `["1", 1]`
 
 - Input `"1 + 1"`
 - Output `["1 + 1", 2]`
